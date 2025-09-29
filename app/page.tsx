@@ -25,6 +25,7 @@ import {
   Linkedin,
   Github,
 } from "lucide-react"
+import { TbBrandWhatsapp } from "react-icons/tb";
 import Spline from "@splinetool/react-spline" // Add this import
 import dynamic from "next/dynamic" // Add dynamic import
 // Dynamically import the Card component with SSR disabled
@@ -398,7 +399,7 @@ export default function HomePage() {
             {[
               {
     name: "Starter Plan",
-    price: "300–500 TND",
+    price: "$500",
     period: "/month",
     description: "Designed for small businesses; includes access to one AI module and basic CRM features.",
     features: [
@@ -408,7 +409,7 @@ export default function HomePage() {
   },
   {
     name: "Professional Plan",
-    price: "600–900 TND",
+    price: "$1500",
     period: "/month",
     description: "For growing businesses; includes multiple AI apps, ERP modules & a TV-in-a-Card package. One-time setup fee: 1 500–5 000 TND.",
     features: [
@@ -640,7 +641,7 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
-                  <Phone className="h-4 w-4 text-primary flex-shrink-0" />
+                  <TbBrandWhatsapp className="h-5 w-5 text-primary flex-shrink-0" />
                   <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
                     0090 506 041 6462
                   </a>

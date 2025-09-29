@@ -175,7 +175,7 @@ const ImpactSection: React.FC = () => {
     </div>
 
     {/* Buttons */}
-    <div className="flex flex-wrap gap-3 pt-6">
+    {/* <div className="flex flex-wrap gap-3 pt-6">
       <a
         href="#support"
         className="inline-flex items-center rounded-xl border border-white/20 bg-white/10 px-5 py-3 text-sm hover:bg-white/15"
@@ -194,7 +194,7 @@ const ImpactSection: React.FC = () => {
       >
         Start Free Trial
       </a>
-    </div>
+    </div> */}
   </div>
 </div>
 
